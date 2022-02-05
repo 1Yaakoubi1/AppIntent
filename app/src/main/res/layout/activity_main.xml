@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/Pass"
+        android:textSize="30sp"
+
+        />
+
+    <Button
+        android:id="@+id/btIntExpli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Explicite"
+        />
+    <Button
+        android:id="@+id/btIntExpliAvecDTA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ExpliAvecDTA"
+        />
+    <Button
+        android:id="@+id/btGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Google"
+        />
+    <Button
+        android:id="@+id/btParam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Param"
+        />
+        <Button
+            android:id="@+id/btnAppelTele"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tt"
+
+            />
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mail" />
+
+</LinearLayout>

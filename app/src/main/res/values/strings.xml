@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EX4_LesIntents</string>
+    <string name="Pass">Taper un texte</string>
+    <string name="Explicite">INTENT EXPLICITE</string>
+    <string name="ExpliAvecDTA">INTENT EXPLICITE AVEC TRANSMISSION DE DONNEES</string>
+    <string name="Google">WWW.GOOGLE.COM</string>
+    <string name="Param">PARAMETRES APPLICATIONS</string>
+    <string name="tt">Appel téléphonique</string>
+    <string name="mail">Envoi d\'un e-mail</string>
+</resources>
